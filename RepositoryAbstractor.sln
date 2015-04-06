@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{6DA3B489-1E30-471A-A24F-96DC64A0E70F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.EntityFramework", "Repository.EntityFramework\Repository.EntityFramework.csproj", "{4CB838F2-8488-426A-AD9D-9383FB6316FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.NHibernate", "Repository.NHibernate\Repository.NHibernate.csproj", "{B260645B-C4D3-491C-9CAF-B313F76D3020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.RavenDb", "Repository.RavenDb\Repository.RavenDb.csproj", "{D192BEA8-33F6-437F-B818-D125A39AA6EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.RavenDb.Tests.Unit", "Repository.RavenDb.Tests.Unit\Repository.RavenDb.Tests.Unit.csproj", "{B5627B60-DCB6-4004-B05E-6360E79A698E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.EntityFramework.Tests.Unit", "Repository.EntityFramework.Tests.Unit\Repository.EntityFramework.Tests.Unit.csproj", "{AABEFDF1-4A4D-45A3-9472-8D7116C647DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.NHibernate.Tests.Integration", "Repository.NHibernate.Tests.Integration\Repository.NHibernate.Tests.Integration.csproj", "{3DEC117D-78AF-48F1-B567-F44EC57DC818}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0516B8A6-3D16-43FE-A97C-FB6B04D19711}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DA3B489-1E30-471A-A24F-96DC64A0E70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA3B489-1E30-471A-A24F-96DC64A0E70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA3B489-1E30-471A-A24F-96DC64A0E70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA3B489-1E30-471A-A24F-96DC64A0E70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB838F2-8488-426A-AD9D-9383FB6316FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB838F2-8488-426A-AD9D-9383FB6316FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB838F2-8488-426A-AD9D-9383FB6316FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB838F2-8488-426A-AD9D-9383FB6316FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B260645B-C4D3-491C-9CAF-B313F76D3020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B260645B-C4D3-491C-9CAF-B313F76D3020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B260645B-C4D3-491C-9CAF-B313F76D3020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B260645B-C4D3-491C-9CAF-B313F76D3020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D192BEA8-33F6-437F-B818-D125A39AA6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D192BEA8-33F6-437F-B818-D125A39AA6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D192BEA8-33F6-437F-B818-D125A39AA6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D192BEA8-33F6-437F-B818-D125A39AA6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5627B60-DCB6-4004-B05E-6360E79A698E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5627B60-DCB6-4004-B05E-6360E79A698E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5627B60-DCB6-4004-B05E-6360E79A698E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5627B60-DCB6-4004-B05E-6360E79A698E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABEFDF1-4A4D-45A3-9472-8D7116C647DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABEFDF1-4A4D-45A3-9472-8D7116C647DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABEFDF1-4A4D-45A3-9472-8D7116C647DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABEFDF1-4A4D-45A3-9472-8D7116C647DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEC117D-78AF-48F1-B567-F44EC57DC818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEC117D-78AF-48F1-B567-F44EC57DC818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEC117D-78AF-48F1-B567-F44EC57DC818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEC117D-78AF-48F1-B567-F44EC57DC818}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
